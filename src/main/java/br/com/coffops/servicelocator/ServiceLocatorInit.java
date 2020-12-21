@@ -17,6 +17,7 @@ public class ServiceLocatorInit {
     @PostConstruct
     public void init(){
         STORAGE_SERVICE_TYPE = enumStorageServiceType;
+        System.out.println("Variável configurada: "+ enumStorageServiceType.name());
     }
 
 }
